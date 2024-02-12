@@ -14,14 +14,39 @@
       rel="stylesheet"
       crossorigin="anonymous"
     />
+
     <link rel="stylesheet" type="text/css" href="style.css" />
     <link rel="icon" href="favicon.png" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Silkscreen:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Pixelify+Sans:wght@700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Honk&family=Workbench&display=swap"
+      rel="stylesheet"
+    />
   </head>
   <body>
-    <h1>Number guessing game</h1>
-    <div id="result-area">Result</div>
-    <input type="number" id="user-input" />
-    <button id="play-button">Go!</button>
+    <div id="container">
+      <h1 id="title">Number Guess Game</h1>
+      <div id="result-area">Result</div>
+      <div id="chance-area">Left Chances : 5</div>
+      <input
+        type="number"
+        id="user-input"
+        placeholder="Write down your number"
+      />
+      <div id="button-group">
+        <button id="play-button" class="round-btn">Go!</button>
+        <button id="reset-button" class="round-btn">Reset!</button>
+      </div>
+    </div>
 
     <script src="main.js"></script>
     <script

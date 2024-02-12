@@ -1,0 +1,99 @@
+body {
+    background-color: rgb(22, 22, 23);
+    color: #ececec;
+    font-family: 'Pixelify Sans', sans-serif;
+    font-family: 'Silkscreen', sans-serif;
+    text-align: center;
+    font-size: 36px;
+    display: flex;
+    justify-content: center; /* Center horizontally */
+    align-items: center; 
+}
+
+#container {
+    height: 80vh;
+    max-width: 1000px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    margin: 10vh 5vw;
+    /* background-color: rgb(50, 50, 54); */
+}
+
+h1#title {
+    font-size:100px;
+    font-family: 'Honk', system-ui;
+}   
+
+#result-area {
+    font-weight: 700;
+    background-color: black;
+    padding: 20px 50px;
+}
+
+input[type=number]::-webkit-inner-spin-button, 
+input[type=number]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+#user-input {
+    height: 90px;
+    width: 100%;
+
+    border-radius: 40px;
+    text-align: center;
+    font-size: 24px;
+}
+
+#button-group {
+    width: 60%;
+    display: flex;
+    justify-content: space-between;
+}
+
+button.round-btn {
+    height: 140px;
+    width: 140px;
+    border-radius: 50%;
+    border: none;
+    /* border: solid 10px black; */
+    /* box-shadow: 1px 1px 14px 4px rgba(0, 0, 0, 0.4); */
+    color: aliceblue;
+    font-size: 24px;
+}
+
+.up {
+    color: rgb(20, 116, 190); /* Change the color for "Up!!" */
+}
+
+.down {
+    color: rgb(220, 127, 52); /* Change the color for "Down!!" */
+}
+
+.congratulation {
+    color: blue; /* Change the color for "Congratulation!!" */
+}
+
+
+button.round-btn:hover {
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.6);
+
+}
+
+button#play-button {
+    background-color: rgb(5, 62, 31);
+}
+
+button#play-button:hover {
+    background-color: rgb(9, 83, 42);
+}
+
+button#reset-button {
+    background-color: rgb(116, 12, 12);
+}
+
+button#reset-button:hover {
+    background-color: rgb(149, 16, 16);
+}
